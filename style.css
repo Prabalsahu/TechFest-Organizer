@@ -1,0 +1,88 @@
+.navbar 
+{
+  width: 1348px;
+  background-color: black;
+ /* border-radius: 30px;*/
+  position: fixed;
+  top: 0px;
+  height: 75px;
+}
+.navbar ul
+{
+overflow: auto;
+
+}
+.navbar li
+{
+float: left;
+list-style: none;
+margin: 13px  20px;
+color: white;
+}
+.navbar li a
+{
+padding: 3px  3px;
+text-decoration: none;
+color: white;
+}
+.navbar li p
+{
+  margin-top: -5px;
+  padding: 0px 50px;
+  font-size: 25px;
+  color: aqua;
+}
+.navbar li a:hover
+{
+color: red;
+}
+.search
+{
+margin-top: -5px;
+float: right;
+color: white;
+padding: 12px 75px;
+}
+.navbar input
+{
+border: 2px solid black;
+border-radius: 4px;
+padding: 3px 17px;
+width: 129px;
+}
+th {
+    text-align: left;
+  }
+  .size
+  {
+   font-size:60px; 
+  }
+  .city2
+  {
+   width: 38%;
+   height: 20px;
+   background-color: yellow;
+   border-radius: 10px;
+
+  } 
+  th, td
+  {
+    padding: 15px;
+  }
+  .pp{
+    font-size: 50px;
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+  .chair td:hover
+{
+
+background-color: rgb(0, 0, 8);
+}
+.chair th:hover
+{
+color: rgb(118, 118, 240);
+}
